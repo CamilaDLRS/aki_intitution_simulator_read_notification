@@ -40,5 +40,5 @@ jobs:
         uses: Azure/functions-action@v1
         id: deploy-to-function-app
         with:
-          app-name: 'aki-institution-simulator-read-notification' # <-- NOME ATUALIZADO
+          app-name: 'aki-intitution-simulator-read-notification' # <-- NOME ATUALIZADO
           package: .

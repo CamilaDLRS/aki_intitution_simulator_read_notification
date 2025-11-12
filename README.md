@@ -50,8 +50,11 @@ Utiliza logger simples (`src/shared/logger.ts`) com níveis: info, warn, error.
 
 ## Autores
 Camila Delarosa
+
 Dimitri Delinski
+
 Guilherme Belo
+
 Yasmin Carmona
 
 ## Licença
