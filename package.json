@@ -1,0 +1,19 @@
+{
+  "name": "aki_intitution_simulator_read_notification",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Azure Function that simulates institution reading notification messages from Service Bus queue notify_institution.",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "func start",
+    "watch": "tsc -w -p ."
+  },
+  "dependencies": {
+    "@azure/functions": "^4.5.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^20.11.0"
+  }
+}

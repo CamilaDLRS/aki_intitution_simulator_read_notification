@@ -1,0 +1,12 @@
+{
+  "scriptFile": "../dist/index.js",
+  "bindings": [
+    {
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "queueName": "notify_institution",
+      "connection": "SERVICE_BUS_CONNECTION_STRING",
+      "name": "message"
+    }
+  ]
+}
